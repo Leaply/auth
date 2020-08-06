@@ -8,6 +8,7 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 require("alpinejs")
+require("tailwindcss-dark-mode/prefers-dark")
 
 import '../stylesheets/application.scss'
 

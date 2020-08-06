@@ -9,6 +9,7 @@
     "@tailwindcss/ui": "^0.5.0",
     "alpinejs": "^2.5.0",
     "tailwindcss": "^1.6.2",
+    "tailwindcss-dark-mode": "^1.1.6",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
