@@ -25,6 +25,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'devise', '~> 4.7'
 # OmniAuth for authentiction strategies
 gem 'omniauth', '~> 1.9'
+gem 'omniauth-oauth2', '~> 1.7'
 
 # Use Active Storage variant
 gem 'image_processing', '~> 1.2'

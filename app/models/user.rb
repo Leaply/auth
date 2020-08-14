@@ -4,5 +4,8 @@ class User < ApplicationRecord
 
   # Automatically add most of Devise's behaviour
   devise :database_authenticatable, :registerable, :confirmable, :trackable,
-         :recoverable, :rememberable, :validatable, :omniauthable
+         :recoverable, :rememberable, :validatable, :omniauthable,
+         omniauth_providers: [:stellenbosch_university]
+  
+  has_many :authentications
 end
